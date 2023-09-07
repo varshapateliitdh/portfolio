@@ -6,31 +6,31 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Patel",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Varsha",
+  message: " Passionate about making the world a better place with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/varshapateliitdh",
     },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
+    //{
+     // image: "fa-facebook",
+      //url: "https://www.facebook.com/hashirshoaeb",
+    //},
+    //{
+      //image: "fa-instagram",
+      //url: "https://www.instagram.com/hashirshoaeb/",
+    //},
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/patel-varsha-b9123320a/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    //{
+      //image: "fa-twitter",
+     // url: "https://www.twitter.com/hashirshoaeb/",
+    //},
   ],
 };
 
@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I'm Varsha, a fourth year undergraduate student at Indian Institute of Technology, Dharwad. I'm a robotics enthusiast with solid experience in CAD, currently diving into autonomous navigation to expand my expertise. I'm actively looking for oppurtunities to solve real life problems with my knowledge while also learning new things.",
+  resume: "https://drive.google.com/file/d/1Cb3TTueKss_emBbLLJxXNQUtHGojARoQ/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,8 +66,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "varshapateliitdh", //i.e."johnDoe12Gh"
+  reposLength: 2,
   specificRepos: [],
 };
 
@@ -100,14 +100,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Fusion 360", value: 90 },
+    { name: "SolidWorks", value: 75 },
+    { name: "C/C++", value: 85 },
+    { name: "Python", value: 65 },
+    { name: "Data Structures", value: 90 },
+    { name: "MATLAB", value: 65 },
+    { name: "ROS2", value: 55 },
+    { name: "Gazebo", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -116,7 +116,7 @@ const skills = {
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Leadership", value: 70 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -126,23 +126,23 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for internship and job opportunities in Robotics Engineer or Mechanical Engineer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "varsha.career.forward@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Industrial Design Intern',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      date: 'Jan 2023 – Jun 2023',
     },
     {
-      role: 'Front-End Developer',
+      role: 'Summer Research Intern',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'May 2022 – Aug 2022',
     },
   ]
 }
