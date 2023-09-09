@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "I'm Varsha, a fourth year undergraduate student at Indian Institute of Technology, Dharwad. I'm a robotics enthusiast with solid experience in CAD, currently diving into autonomous navigation to expand my expertise. I'm actively looking for oppurtunities to solve real life problems with my knowledge while also learning new things.",
-  resume: "https://drive.google.com/file/d/1Cb3TTueKss_emBbLLJxXNQUtHGojARoQ/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1xH6SZwtEIFo2wupBNOUj49ssZ4mEHe0r/view?usp=sharing",
 };
 
 // PROJECTS SECTION
