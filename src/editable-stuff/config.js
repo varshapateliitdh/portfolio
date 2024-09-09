@@ -34,7 +34,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "varshapateliitdh"
+  gitHubUsername: "varshapateliitdh",
   reposLength: 2,
   specificRepos: [],
 };
