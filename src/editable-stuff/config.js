@@ -68,14 +68,17 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Fusion 360", value: 90 },
-    { name: "SolidWorks", value: 75 },
     { name: "C/C++", value: 85 },
-    { name: "Python", value: 65 },
-    { name: "Data Structures", value: 90 },
+    { name: "Python", value: 90 },
+    { name: "Langchain", value: 70 },
+    { name: "SQL", value: 80 },
+    { name: "MongoDB", value: 80 },
+    { name: "Docker", value: 70 },
+    { name: "Kubernetes", value: 70 },
+    { name: "Airflow", value: 90 },
     { name: "MATLAB", value: 65 },
     { name: "ROS2", value: 55 },
-    { name: "Gazebo", value: 80 },
+    { name: "Fusion 360", value: 90 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -104,12 +107,12 @@ const experiences = {
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/abb.png'),
       date: 'Jul 2024 – Present',
     },
     {
       role: 'Software Engineering Intern',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/abb.png'),
       date: 'Jan 2024 – Jun 2024',
     },
     {
