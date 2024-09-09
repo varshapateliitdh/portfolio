@@ -15,37 +15,12 @@ const mainBody = {
       image: "fa-github",
       url: "https://github.com/varshapateliitdh",
     },
-    //{
-     // image: "fa-facebook",
-      //url: "https://www.facebook.com/hashirshoaeb",
-    //},
-    //{
-      //image: "fa-instagram",
-      //url: "https://www.instagram.com/hashirshoaeb/",
-    //},
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/patel-varsha-b9123320a/",
-    },
-    //{
-      //image: "fa-twitter",
-     // url: "https://www.twitter.com/hashirshoaeb/",
-    //},
+    }
   ],
 };
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
   show: true,
@@ -53,18 +28,13 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "I'm Varsha, a fourth year undergraduate student at Indian Institute of Technology, Dharwad. I'm a robotics enthusiast with solid experience in CAD, currently diving into autonomous navigation to expand my expertise. I'm actively looking for oppurtunities to solve real life problems with my knowledge while also learning new things.",
+    "I'm Varsha, a recent grad from Indian Institute of Technology, Dharwad with varied experiences from materials to mechanical design to robotics to AI. I'm a quick learner and an AI enthusiast currently diving into LLMs which generate accurate SQL queries. I'm actively looking for oppurtunities to solve real life problems with my knowledge while also learning new things.",
   resume: "https://drive.google.com/file/d/1xH6SZwtEIFo2wupBNOUj49ssZ4mEHe0r/view?usp=sharing",
 };
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "varshapateliitdh", //i.e."johnDoe12Gh"
+  gitHubUsername: "varshapateliitdh"
   reposLength: 2,
   specificRepos: [],
 };
@@ -124,7 +94,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for internship and job opportunities in Robotics Engineer or Mechanical Engineer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "varsha.career.forward@gmail.com",
 };
 
@@ -132,6 +102,16 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+    {
+      role: 'Software Engineer',// Here Add Company Name
+      companylogo: require('../assets/img/dell.png'),
+      date: 'Jul 2024 – Present',
+    },
+    {
+      role: 'Software Engineering Intern',// Here Add Company Name
+      companylogo: require('../assets/img/dell.png'),
+      date: 'Jan 2024 – Jun 2024',
+    },
     {
       role: 'Industrial Design Intern',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
@@ -144,10 +124,5 @@ const experiences = {
     },
   ]
 }
-
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
